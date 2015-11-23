@@ -1,0 +1,238 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.main-header .banner-text .banner-search
+{
+	background: rgba(143, 165, 175, 0.33);
+	padding: 10px 15px;
+	border-radius: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.main-header .navigation-bar .navbar-header .navbar-brand {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.greyish {
+  color: #B9B9B9
+}
+
+.banner-search.col-md-offset-2.col-md-8.col-md-offset-2 {
+    color: #fff;
+    margin-top: 1px;
+    margin-bottom:1px;
+}
+
+body {
+    color: #6F7478;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-header .banner-text .banner-search .sellone {
+    width: 100%;
+    height: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.main-header .banner-text .banner-search .selltwo {
+    width: 200%;
+    height: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.main-header .banner-text .banner-search .form-btn button {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(210,19,17,0.63);
+    color: #fff;
+    transition: all 0.8s ease-in 0s;
+}
+
+
+.main-header .banner-text .banner-search .cool-btn button {
+	background-color:#D9534F;
+	padding-top: 50px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: -4px;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:26px;
+	text-decoration:none;
+	color:#fff;
+	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(218, 108, 104)),
+	color-stop(1, rgb(234, 76, 72))
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #E67774, 0px 6px 0px #A94442;
+	-moz-box-shadow: inset 0px 1px 0px #E67774, 0px 6px 0px #A94442;
+	-o-box-shadow: inset 0px 1px 0px #E67774, 0px 6px 0px #A94442;
+	box-shadow: inset 0px 2px 0px #E67774, 2px 3px 0px #A94442;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.main-header .banner-text .banner-search .cool-btn button::before {
+	background-color:#072239;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:4px;
+	left:-2px;
+	top:5px;
+	z-index:-1;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 0px #fff;
+	-moz-box-shadow: 0px 1px 0px #fff;
+	-o-box-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 0px #fff;
+}
+
+.main-header .banner-text .banner-search .cool-btn button:active {
+	color:#156785;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	background:rgb(44,160,202);
+	-webkit-box-shadow: inset 0px 1px 0px #E67774, inset 0px -1px 0px #A94442;
+	-moz-box-shadow: inset 0px 1px 0px #E67774, inset 0px -1px 0px #A94442;
+	-o-box-shadow: inset 0px 1px 0px #E67774, inset 0px -1px 0px #A94442;
+	box-shadow: inset 0px 1px 0px #E67774, inset 0px -1px 0px #A94442;
+	top:7px;
+}
+
+.main-header .banner-text .banner-search .cool-btn button:active::before {
+	top:-2px;
+}
+
+
+
+
+
+
+
+.main-header{
+	background: url("../img/traffic_smog.jpeg") 0% 0% / 100% no-repeat fixed;
+	width: 100%;
+	float: left;
+	background-size: cover;
+}
+
+.main-header .banner-info h2 {
+    color: #FFF;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Helvetica;
+    padding-bottom: 50px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(192, 192, 192, 0.04);
+}
+h2 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+.grey {
+    color: #F84B4A;
+}
+
+.main-header .banner-pred-info h2 {
+    color: #FFF;
+    padding-top: 150px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.grey {
+    color: #F84B4A;
+}
+
+.hit-the-floor h1{
+color: #F84B4A;
+font-size: 12em;
+font-weight: bold;
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.grey {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: Helvetica;
+    text-shadow:  none;
+}
+
+.hit-the-floor {
+  text-align: center;
+}
+
+
+.feature-list {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.row {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid;
+}
+
+
+.main-header .banner-text .banner-heading h3 {
+    text-align: left;
+    font-size: 28px;
+    color: #FFF;
+    padding-bottom: 1px;
+    text-indent: 8px;
+    padding-top: 10px;
+}
+
+.main-header .backbg-color {
+    width: 100%;
+    float: left;
+    background-color: rgba(37, 35, 50, 0.67);
+    padding-bottom: 50px;
+}
+
+.intro-one {
+  width: 100%;
+  float: left;
+  background-color: #F84B4A;
+  padding: 40px 0px;
+  color: #fff;
+}
