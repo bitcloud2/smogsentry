@@ -8,13 +8,6 @@ import pandas as pd
 app = Flask(__name__)
 with open('../data/model_gradboost_final_air15.pkl', 'r') as f:
     model = pickle.load(f)
-def dict_to_html(d):
-    return '<br>'.join('{0}: {1}'.format(k, d[k]) for k in sorted(d))
-
-# # home page
-# @app.route('/')
-# def index():
-#     return render_template('jumbotron.html', title='Hello!')
 
 # home page
 @app.route('/')
@@ -37,15 +30,6 @@ def index():
     ofeature = OrderedDict(sorted(feature_temp))
     return render_template('pollution_template.html', feature=ofeature, title='Hello!')
 
-@app.route('/more/')
-def more():
-    return render_template('starter_template.html')
-
-@app.route('/logo.jpg')
-def get_logo():
-
-    with open('../images/gooogle-old-3.jpg') as googleLogo:
-        return googleLogo.read(), 200, {'Content-Type': 'image/jpg'}
 
 @app.route('/prediction', methods=['POST'] )
 def get_search():
