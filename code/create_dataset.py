@@ -109,7 +109,7 @@ def create_newdb():
         df_gasoline_dirty.loc[:, 'comb_co2'].str.split('/')
 
     # Convert non-helpful values to 0
-    # Good --------- Changed gas[eth] to gas[gas]
+    # Changed gas[eth] to gas[gas]
     df_eth_dirty.ix[df_eth_dirty['city_mpg'].map(
         lambda x: len(x) < 2), 'city_mpg'] = \
         df_eth_dirty[df_eth_dirty['city_mpg'].map(
