@@ -18,6 +18,7 @@ Using nearly 1000 cars, I trained a Gradient Boosted Random Forest Classifier. T
 ### Webapp
 SmogSentry has been integrated into a web app allowing users to select the specifications for a car they are building, or for a car the EPA might think is too good to be true.
 The user can then predict what their score would be under both the Federal and California agencies.
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
 
 ### Results
 Now, the real question is, could SmogSentry have identified past problem vehicles like the ones in the Volkswagen scandal?
@@ -25,6 +26,7 @@ Well, the Volkswagen scandal involves diesel cars, and since diesel cars are rar
 
 Of the 65 cars tested, only four cars were predicted different from what was reported to the EPA. Cars with a predicted score worse than their reported score have a negative value in the difference column. The cars with stars next to their name their diesel counterparts were included in the Volkswagen scandal. Notice that their scores are predicted much worse than what they reported to the EPA.
 
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
  To give you a sense of why these results are important, I’ve included a plot showing the differences between the predicted and reported scores. You can see that anomalies are rare and my model is very good at identifying them. Both of the cars that were predicted four ranks worse, are actually the only cars there as both models have two different engines. Fortunately, for Volkswagen it isn’t all bad news, their Jetta Hybrid was predicted to perform better than they actually reported.
 As you can see, SmogSentry can be easily used as a screening test for the EPA and might lift some of the pressure from wondering which cars have accurate scores and which don’t.
 
